@@ -1,0 +1,11 @@
+/* home css styles */
+.firstword{
+    margin: 1rem;
+}
+.descriptive-content {
+    display: none;
+ }
+ .descriptive-visible {
+    display: initial !important;
+ }
+ 

@@ -1,0 +1,446 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+/* body{
+    margin-left: 8rem;
+    margin-right: 8rem;
+} */
+h2{
+    margin: 3rem;
+}
+html {
+    font-family: 'Raleway', sans-serif;
+    scroll-behavior: smooth;
+}
+html {
+    font-size: 62.5%; }
+  @media (min-width: 112.5em) {
+    html {
+    font-size: 75%; } }
+  @media (max-width: 75em) {
+    html {
+    font-size: 56.25%; } }
+  @media (max-width: 56.25em) {
+    html {
+    font-size: 50%; } }
+  @media (max-width: 37.5em) {
+    html {
+    font-size: 40%; } 
+}
+
+ul{
+    list-style-type: none;
+}
+.hamburger {
+    display: none;
+    padding: 1rem;
+}
+.link{
+    /* width: 40%; */
+    width: 30%;
+    min-width: 50rem;
+    display:flex;
+    color: #202020;
+    align-items: end;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 2rem;
+    margin-right: 2rem;
+}
+.nav-link{
+    height: 0rem;
+    font-size: 2.4rem;
+    line-height: 2rem;
+    text-decoration: none;
+    color: #101010;
+}
+.nav-name{
+    color: rgb(92, 192, 255);
+    margin-left: 2rem;
+    text-decoration: none;
+}
+nav{
+    font-size: 5rem;
+    display: flex;
+    margin: 1rem;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 1.5rem;
+}
+#resume_text{
+    font-style: normal;
+    height: auto;
+    line-height: 2rem;
+    padding: 0.7rem;
+    background-color: rgb(92, 192, 255);
+}
+a:hover{
+    color: mediumaquamarine;
+}
+.hero{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly; 
+    align-items: center;
+    padding-bottom: 10rem;
+}
+#hero_box{
+    width: auto;
+    height: 55rem;
+    background-color:mediumturquoise;
+    clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 83%);
+}
+#hero_img{
+    /* position: absolute; */
+    margin-top: 5rem;
+    margin-left: 10rem;
+    height: 100%;
+    width: 35rem;
+    clip-path: ellipse(45% 46% at 50% 47%);
+    /* left: 10rem;
+    top: 15rem; */
+}
+#hero_text{
+    width: 40%;
+    color: azure;
+    font-size: 3.5rem;
+    /* padding-top: 3rem;  */
+}
+.headers{
+    margin-left: 8%;
+    margin-right: 8%;
+    font-size: 4rem;
+    color:rgb(92, 192, 255);
+}
+p{
+    font-size: 3rem;
+}
+#aboutme_text{
+    margin-left: 13%;
+    margin-right: 13%;
+}
+.project1{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: 20%;
+    margin-left: 13%;
+
+}
+.project1left{
+    width: 45%;
+}
+#p1_picture{
+    height: 100%;
+    width: 40rem;
+}
+#p1paragraph{
+
+}
+#projectLine{
+    width:40%;
+    text-align: left;
+    margin: 3rem;
+    margin-left: 0;
+
+}
+#p1link{
+    padding-top: 8rem;
+    font-size: 3rem;
+
+}
+
+.experience_list{
+    padding-left: 10rem;
+    padding-right: 10rem;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+.exp1{
+    display: flex;
+    font-size: 1rem;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+}
+.exp2{
+    display: flex;
+    font-size: 1rem;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+}
+.exp3{
+    display: flex;
+    font-size: 1rem;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+}
+#exp1text{
+    text-align:center;
+    font-size:2rem;
+    width: 70%;
+}
+#exp2text{
+    text-align:center;
+    font-size:2rem;
+    width: 70%;
+}
+#exp3text{
+    text-align:center;
+    font-size:2rem;
+    width: 70%;
+}
+#exp1pic{
+    margin-top: 5.5rem;
+    margin-bottom: 4.5rem;
+    width:23rem;
+    height:16.5rem;
+}
+#exp2pic{
+    width:25rem;
+    height:25rem;
+    margin-bottom: 2rem;
+}
+#exp3pic{
+    width:25rem;
+    height:25rem;
+    margin-top: 2rem;
+}
+#contactinfo{
+    margin-top: 6rem;
+    margin-bottom: 2rem;
+    display:flex;
+    justify-content: center;
+    font-size: 1.5rem;
+    color: rgb(100, 100, 100);
+}
+/* @media only screen and (max-width: 1600px) {
+    .link{
+        width: 35%;
+    }
+    #hero_box{
+        width: auto;
+        height: 47rem;
+    }
+    #hero_img{
+        width: 35rem;
+        height: 25rem;
+        left: 10rem;
+        top: 15rem;
+    }
+    #hero_text{
+        width: 40%;
+        font-size: 3rem;
+    }
+    #p1picture{
+        height:53rem;
+        width:auto;
+    }
+    .headers{
+        margin-left: 10rem;
+        margin-right: 10rem;
+    }
+    #aboutme_text{
+        margin-left: 19rem;
+        margin-right: 19rem;
+    }
+    #p1name{
+        margin-left: 19rem;
+        margin-right: 19rem;
+    }
+    #p1paragraph{
+        margin-left: 19rem;
+        margin-right: 19rem;
+    }
+    #projectLine{
+        margin-left: 19rem;
+    }
+    #p1link{
+        margin-left: 19rem;
+        margin-right: 19rem;
+    }
+} */
+
+@media only screen and (max-width: 900px) {
+    .hamburger{
+        display: block;
+        color: white;
+        padding-bottom: 0.5rem;
+        font-size: 2rem;
+        background-color: rgb(92, 192, 255);
+        border-color: mediumturquoise;
+    }
+    .navbar {
+        height: 60px;
+    }
+    #resume_text{
+        background-color: transparent;
+    }
+    .navbar ul {
+        z-index: 1;
+        position: absolute;
+        width: 100%;
+        height: 27rem; 
+        left: 0;
+        top: 8.5rem;
+        flex-direction: column;
+        align-items: center;
+        /* border-top: 1px solid #444; */
+        background-color: rgb(92, 192, 255);
+        max-height: 0;
+        overflow: hidden;
+        transition: .3s;
+    }
+    .navbar ul li {
+        width: 100%;
+        text-align: center;
+    }
+    .navbar ul li a {
+        padding: 5rem;
+    }
+    .navbar ul.open {
+        max-height: 100vh;
+        overflow: visible;
+    }
+    .hero{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 10rem;
+    }
+    #hero_box{
+        width: auto;
+        height: 100rem;
+        background-color: mediumturquoise;
+        clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 90%);
+    }
+    #hero_img{
+        /* position: absolute; */
+        width: 50rem;
+        margin: 0;
+        padding: 0;
+        /* left: 10rem;
+        top: 15rem; */
+    }
+    #hero_text{
+        width: 80%;
+        text-align:center;
+        font-size: 3.5rem;
+        /* padding-top: 3rem;  */
+    }
+    .project1{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #p1name{
+        margin-left: 10rem;
+        margin-right: 7rem;
+    }
+    .project1left{
+        width: 100%;
+    }
+    #p1picture{
+        height:50rem;
+        width:auto;
+        margin-bottom: 3rem;
+    }
+    #p1paragraph{
+        margin-left: 10rem;
+        margin-right: 7rem;
+    }
+    #projectLine{
+        width:40%;
+        text-align: left;
+        margin: 3rem;
+        margin-left: 10rem;
+    }
+    #p1link{
+        padding-top: 3rem;
+        font-size: 3rem;
+        margin-left: 10rem;
+        margin-right: 7rem;
+        margin-bottom: 3rem;
+    }
+
+    .experience_list{
+        padding-left: 10rem;
+        padding-right: 10rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .exp1{
+        display: flex;
+        font-size: 1rem;
+        flex-direction: column;
+        align-items: center;
+        width: 80%;
+        margin-bottom: 4rem;
+    }
+    .exp2{
+        display: flex;
+        font-size: 1rem;
+        flex-direction: column;
+        align-items: center;
+        width: 80%;
+        margin-bottom: 4rem;
+    }
+    .exp3{
+        display: flex;
+        font-size: 1rem;
+        flex-direction: column;
+        align-items: center;
+        width: 80%;
+        margin-bottom: 4rem;
+    }
+    #exp1text{
+        font-size:2rem;
+        width: 70%;
+    }
+    #exp2text{
+        font-size:2rem;
+        width: 70%;
+    }
+    #exp3text{
+        font-size:2rem;
+        width: 70%;
+    }
+    #exp1pic{
+        width:25rem;
+        height:25rem;
+        margin-top: 2rem;
+    }
+    #exp2pic{
+        width:25rem;
+        height:25rem;
+        margin-bottom: 2rem;
+    }
+    #exp3pic{
+        margin-top: 5rem;
+        margin-bottom: 2rem;
+        width:30rem;
+        height:20rem;
+    } 
+}
