@@ -10,12 +10,12 @@
 <body>
     <div class="container">
         <nav class="navbar">
-            <a class="nav-name" href="./index.html">Justin Liu</a>
+            <a class="nav-name" href="./index">Justin Liu</a>
             <ul class="link">
                 <li><a class="nav-link" href="#about">About</a></li>
                 <li><a class="nav-link" href="#projects">Projects</a></li>
                 <li><a class="nav-link" href="#experience">Experience</a></li>
-                <li><a class="nav-link" id="resume_text" href="./resume.html">Resume</a></li>
+                <li><a class="nav-link" id="resume_text" href="./resume">Resume</a></li>
             </ul>
             <!-- for mobile version only -->
             <button class="hamburger">Menu</button>

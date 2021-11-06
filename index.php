@@ -15,14 +15,14 @@
 <!-- <?php echo get_theme_mod($index_hero_img)?> -->
 <body>
     <div class="hero" id="hero_box">
-        <div id="hero_img" style="background: url(<?php echo get_theme_mod($index_hero_img)?>); background-repeat: no-repeat;
+        <div id="hero_img" style="background: url(<?php echo get_template_directory_uri(); ?>/data/justin_picture3.jpg); background-repeat: no-repeat;
         background-size: cover;" class="top-section"></div>
         <!-- <img id="hero_img" src="data/justin_picture3.jpg" alt="Hero Picture"></img> -->
         <div id="hero_text">Hello! I’m Justin and I'm a sohpomore at UMich College of 
             Engineering majoring in Computer Science. </div>
     </div>
 
-    <h2 class="headers" id="about">About Me</h2>
+    <h2 class="headers johnny" id="about">About Me</h2>
         <p id="aboutme_text">Some of my hobbies include drawing, exercising and making games. I’m currently a part of
             VOID tech consulting and MedLaunch at the University.
         </p>
@@ -36,7 +36,7 @@
             </div>
             <div class="project1right">
                 <!-- <img src="2ptetris.png" alt="P1picture"></img> -->
-                <div id="p1_picture" style="background: url(<?php echo get_theme_mod($index_project_img1)?>); background-repeat: no-repeat;
+                <div id="p1_picture" style="background: url(<?php echo get_template_directory_uri(); ?>/data/tetrisclip.gif); background-repeat: no-repeat;
                 background-size: cover;" class="top-section"></div>
             </div>
         </div>
@@ -55,19 +55,19 @@
         <ul class="experience_list">
             <li class="exp1">
                 <!-- <img id="exp1pic" src="data/exp1.png" alt="exp1pic"></img> -->
-                <div id="exp1pic" style="background: url(<?php echo get_theme_mod($index_experience_img1)?>); background-repeat: no-repeat;
+                <div id="exp1pic" style="background: url(<?php echo get_template_directory_uri(); ?>/data/exp1.png); background-repeat: no-repeat;
                 background-size: cover;" class="top-section"></div>
                 <p id="exp1text">Research assistant for the Michigan Intelligent Programming Lab. Currently running experiments for the optimization of SQL queries using program synthesis</p>
             </li>
             <li class="exp2">
                 <!-- <img id="exp2pic" src="data/exp2.png" alt="exp2pic"></img> -->
-                <div id="exp2pic" style="background: url(<?php echo get_theme_mod($index_experience_img2)?>); background-repeat: no-repeat;
+                <div id="exp2pic" style="background: url(<?php echo get_template_directory_uri(); ?>/data/exp2.png); background-repeat: no-repeat;
                 background-size: cover;" class="top-section"></div>
                 <p id="exp2text">Data engineering intern at Atomic. Setup infrastructure and workflow orchestration with AWS and Prefect; Automated data ingestion with Python and SQL</p>
             </li>
             <li class="exp3">
                 <!-- <img id="exp3pic" src="data/exp3.png" alt="exp3pic"></img> -->
-                <div id="exp3pic" style="background: url(<?php echo get_theme_mod($index_experience_img3)?>); background-repeat: no-repeat;
+                <div id="exp3pic" style="background: url(<?php echo get_template_directory_uri(); ?>/data/exp3.png); background-repeat: no-repeat;
                 background-size: cover;" class="top-section"></div>
                 <p id="exp3text">Taught an 8-week introductory course on Pygame (extension of the coding language Python) to children of ages 11-12</p>
             </li>

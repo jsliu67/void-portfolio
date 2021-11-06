@@ -292,7 +292,7 @@ p{
         border-color: mediumturquoise;
     }
     .navbar {
-        height: 60px;
+        height: 7rem;
     }
     #resume_text{
         background-color: transparent;
@@ -301,7 +301,7 @@ p{
         z-index: 1;
         position: absolute;
         width: 100%;
-        height: 27rem; 
+        height: 31rem; 
         left: 0;
         top: 8.5rem;
         flex-direction: column;
